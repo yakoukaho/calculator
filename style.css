@@ -1,0 +1,44 @@
+* {
+  font-size: 50px;
+}
+
+table {
+  width: 800px;
+  table-layout: fixed;
+}
+
+table,th,td {
+  border: 1px solid #FEEEED;
+}
+
+th {
+  text-align: right;
+  vertical-align: middle;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  background-color: #F5C9C6;
+}
+
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  display:block;
+  width:100%;
+  height:100%;
+}
+
+input {
+  text-align: right;
+  border: 2px #FEEEED solid;
+  width: 90%;
+}
+
+input:focus {
+  outline: none;
+}

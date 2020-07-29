@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>電卓</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <table>
+    <tr>
+      <td colspan="3">
+        <input type="text" id="result">
+      </td>
+      <td>
+        <button type = button onclick = "C()">C</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button type = button value="7" onclick = "edit(this)">7</button>
+      </td>
+      <td>
+        <button type = button value="8" onclick = "edit(this)">8</button>
+      </td>
+      <td>
+        <button type = button value="9" onclick = "edit(this)">9</button>
+      </td>
+      <td>
+        <button type = button value="/" onclick = "edit(this)">÷</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button type = button value="4" onclick = "edit(this)">4</button>
+      </td>
+      <td>
+        <button type = button value="5" onclick = "edit(this)">5</button>
+      </td>
+      <td>
+        <button type = button value="6" onclick = "edit(this)">6</button>
+      </td>
+      <td>
+        <button type = button value="*" onclick = "edit(this)">×</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button type = button value="1" onclick = "edit(this)">1</button>
+      </td>
+      <td>
+        <button type = button value="2" onclick = "edit(this)">2</button>
+      </td>
+      <td>
+        <button type = button value="3" onclick = "edit(this)">3</button>
+      </td>
+      <td>
+        <button type = button value="-" onclick = "edit(this)">-</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button type = button value="0" onclick = "edit(this)">0</button>
+      </td>
+      <td>
+        <button type = button value="." onclick = "edit(this)">.</button>
+      </td>
+      <td>
+        <button type = button value="=" onclick = "calc()">=</button>
+      </td>
+      <td>
+        <button type = button value="+" onclick = "edit(this)">+</button>
+      </td>
+    </tr>
+  </table>
+  <script type="text/javascript" src="calculation.js"></script>
+</body>
+</html>
+
+
+
